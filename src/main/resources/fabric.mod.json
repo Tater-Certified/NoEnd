@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "noend",
+  "version": "${version}",
+  "name": "NoEnd",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Tater-Certified/NoEnd"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/noend/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.tatercertified.noend.NoEnd"
+    ]
+  },
+  "mixins": [
+    "noend.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}

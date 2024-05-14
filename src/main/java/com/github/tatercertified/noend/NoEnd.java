@@ -1,5 +1,6 @@
 package com.github.tatercertified.noend;
 
+import com.github.tatercertified.noend.gamerule.Gamerule;
 import net.fabricmc.api.ModInitializer;
 
 public class NoEnd implements ModInitializer {
@@ -8,6 +9,7 @@ public class NoEnd implements ModInitializer {
      */
     @Override
     public void onInitialize() {
+        Gamerule.init();
     }
     public static final String MOD_ID = "no_end";
 }

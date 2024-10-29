@@ -11,5 +11,4 @@ public class NoEnd implements ModInitializer {
     public void onInitialize() {
         Gamerule.init();
     }
-    public static final String MOD_ID = "no_end";
 }

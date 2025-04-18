@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.github.tatercertified.noend.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "BooleanValueMixin",
+    "EndPortalMixin",
+    "GameRulesMixin",
+    "NetherPortalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

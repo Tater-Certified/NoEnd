@@ -2,18 +2,17 @@
   "schemaVersion": 1,
   "id": "noend",
   "version": "${version}",
-  "name": "NoEnd",
-  "description": "",
-  "authors": [],
-  "contact": {
-    "repo": "https://github.com/Tater-Certified/NoEnd"
-  },
+  "name": "noend",
+  "description": "Easily disable the end and nether with gamerules",
+  "authors": [
+    "QPCrummer"
+  ],
   "license": "LGPL-3.0",
   "icon": "assets/noend/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.tatercertified.noend.NoEnd"
+      "com.github.tatercertified.noend.fabric.NoendFabric"
     ]
   },
   "mixins": [
@@ -21,6 +20,6 @@
   ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": "*"
+    "minecraft": ">=1.20"
   }
 }

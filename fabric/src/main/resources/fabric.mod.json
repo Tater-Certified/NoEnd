@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "noend",
+  "id": "nodim",
   "version": "${version}",
-  "name": "noend",
+  "name": "No Dim",
   "description": "Easily disable the end and nether with gamerules",
   "authors": [
     "QPCrummer"

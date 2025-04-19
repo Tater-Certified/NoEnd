@@ -4,23 +4,23 @@ loaderVersion = "[2,)"
 license = "LGPL-3.0"
 
 [[mods]]
-modId = "noend"
+modId = "nodim"
 version = "${version}"
-displayName = "noend"
+displayName = "No Dim"
 authors = "QPCrummer"
 description = '''
 Easily disable the end and nether with gamerules
 '''
 #logoFile = ""
 
-[[dependencies.noend]]
+[[dependencies.nodim]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.noend]]
+[[dependencies.nodim]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.20,)"
